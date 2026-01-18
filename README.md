@@ -4,48 +4,48 @@ This project analyzes a Zepto-style grocery dataset using PostgreSQL. It covers 
 
 🔍 Data Exploration
 
-Key exploration steps performed:
+  - Key exploration steps performed:
+ 
+  -Total row count check
 
-Total row count check
+  -Sample data preview
 
-Sample data preview
+  -Null value detection across all columns
 
-Null value detection across all columns
+  -Identification of unique product categories
 
-Identification of unique product categories
+  -Stock vs out-of-stock product distribution
 
-Stock vs out-of-stock product distribution
-
-Detection of duplicate product names (multiple SKUs)
+  -Detection of duplicate product names (multiple SKUs)
 
 
 🧹 Data Cleaning
 
-Actions taken to ensure data quality:
+  -Actions taken to ensure data quality:
 
-Removed products with MRP = 0
+  -Removed products with MRP = 0
 
-Converted prices from paise to rupees
+  -Converted prices from paise to rupees
 
-Ensured consistency in pricing fields
+  -Ensured consistency in pricing fields
 
-Verified no critical NULL values remain
+  -Verified no critical NULL values remain
 
 
 🛠️ Tools & Technologies
 
-Database: PostgreSQL
+  -Database: PostgreSQL
 
-Language: SQL
+  -Language: SQL
 
-Concepts Used:
+  -Concepts Used:
 
-Aggregations (SUM, AVG, COUNT)
+  -Aggregations (SUM, AVG, COUNT)
 
-CASE statements
+  -CASE statements
 
-Filtering & sorting
+  -Filtering & sorting
 
-Data cleaning with DELETE and UPDATE
+  -Data cleaning with DELETE and UPDATE
 
-Grouping & business logic
+  -Grouping & business logic
